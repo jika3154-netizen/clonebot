@@ -10,8 +10,8 @@ from config import LOGGER
 
 
 class Bot(Client):
-    USER: User = None
-    USER_ID: int = None
+    USER: User = Igpostdn_bot
+    USER_ID: int = 8609071677:AAEhRD-Rii6HJ7ABaM550NRwGrMwgmopuNQ
 
     def __init__(self):
         super().__init__(
